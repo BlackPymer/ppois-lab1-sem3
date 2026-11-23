@@ -1,0 +1,25 @@
+# Build artifacts
+vocabulary/vocabulary
+vocabulary/unit_tests
+tic-tac-toe/tic_tac_toe
+tic-tac-toe/unit_tests
+*.o
+*.obj
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage.xml
+coverage.html
+
+# Generated documentation
+docs/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+
+# Local packages
+dist/
